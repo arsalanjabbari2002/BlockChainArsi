@@ -21,7 +21,7 @@ contract myERC20 {
         string memory symbol,
         uint8 decimals,
         uint256 totalSupply
-    ) {
+    ) public {
         _name = name;
         _symbol = symbol;
         _deciamls = decimals;
